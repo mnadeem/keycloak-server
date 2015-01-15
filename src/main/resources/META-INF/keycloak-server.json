@@ -65,7 +65,7 @@
 
     "connectionsJpa": {
         "default": {
-            "dataSource": "java:comp/env/datasources/KeycloakDS",
+            "dataSource": "java:/comp/env/KeycloakDS",
             "databaseSchema": "update"
         }
     }
